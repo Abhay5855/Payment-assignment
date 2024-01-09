@@ -8,7 +8,7 @@ const Table = () => {
       <table className="responsive-table">
         <thead>
           <tr>
-            {columns?.map((column, index) => (
+            {columns.map((column, index) => (
               <th key={index}>
                 <div className="responsive_table__header">
                   {column.name}
@@ -21,10 +21,10 @@ const Table = () => {
         <tbody>
           {rows.map((row, index) => (
             <tr key={index}>
-              <td className="table__id">{row.id}</td>
-              <td className="table__date">{row.date}</td>
-              <td className="table__date">{row.amount}</td>
-              <td className="table__date">{row.fee}</td>
+              <td>{row.id}</td>
+              <td>{row.date}</td>
+              <td>{row.amount}</td>
+              <td>{row.fee}</td>
             </tr>
           ))}
         </tbody>

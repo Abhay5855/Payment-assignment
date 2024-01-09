@@ -141,6 +141,19 @@
   .sidebar__image {
     display: none;
   }
+
+  .wallet__content > span {
+    display: none;
+  }
+
+  .wallet__content > h3 {
+    display: none;
+  }
+
+  .sidebar__footer {
+    padding: 5px;
+    bottom: 2%;
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {

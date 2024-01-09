@@ -4,10 +4,6 @@ import month from "../../assets/images/month.svg";
 import Search from "../../base/Search";
 import sort from "../../assets/images/sort.svg";
 import download from "../../assets/images/download.svg";
-import works from "../../assets/images/works.svg";
-import workswhite from "../../assets/images/workswhite.svg";
-import sidearrow from "../../assets/images/sidearrow.svg";
-import sidearrowwhite from "../../assets/images/sidearrowwhite.svg";
 import Table from "../../base/Table";
 import Pagination from "../../base/Pagination";
 
@@ -19,7 +15,7 @@ const Main = () => {
           <p className="main__heading">Overview</p>
         </div>
         <div className="main__month">
-          <span className="main__month_text">Last Month</span>
+          <p className="main__month_text">Last Month</p>
           <img src={month} alt="..." loading="lazy" />
         </div>
       </div>
@@ -49,7 +45,6 @@ const Main = () => {
         <div className="main__transactions">
           <p>Transactions | This Month</p>
         </div>
-
         <div className="main__filters">
           <div>
             <Search
@@ -69,8 +64,9 @@ const Main = () => {
         </div>
       </main>
 
-      {/* Table */}
-      <Table />
+      <div>
+        <Table />
+      </div>
       <Pagination />
     </div>
   );

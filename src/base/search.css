@@ -49,9 +49,13 @@
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
-  .search__container {
+  .nav__search {
     width: 150px;
     padding: 9px 12px;
+  }
+
+  .main__search {
+    width: 100%;
   }
 }
 

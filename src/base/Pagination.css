@@ -3,6 +3,7 @@
   gap: 8px;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .pagination-button {
@@ -65,4 +66,11 @@
 .page-number:hover {
   background: #146eb4;
   color: #fff;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .page-number {
+    width: 20px;
+    height: 20px;
+  }
 }

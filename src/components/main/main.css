@@ -18,10 +18,10 @@
 .main__heading {
   color: #1a181e;
   font-family: Inter;
-  font-size: 1.25em;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
-  line-height: 28px; /* 140% */
+  line-height: 10px; /* 140% */
 }
 
 .main__month {
@@ -34,13 +34,13 @@
   padding: 0 4px 0 4px;
 }
 
-.main__month__text {
+.main__month_text {
   color: #4d4d4d;
   font-family: Inter, sans-serif;
-  font-size: 1em;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 20px; /* 150% */
 }
 
 .main__cards {
@@ -128,7 +128,7 @@
 .main__orders__text > p {
   color: #4d4d4d;
   font-family: Inter, sans-serif;
-  font-size: 1em;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
@@ -174,7 +174,7 @@
 .main__money > p {
   color: #1a181e;
   font-family: Galano Grotesque, sans-serif;
-  font-size: 2em;
+  font-size: 32px;
   font-style: normal;
   font-weight: 500;
   line-height: 38px; /* 118.75% */
@@ -269,4 +269,49 @@
     font-size: 1.25em;
     line-height: 20px; /* 118.75% */
   }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .main__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .main__heading {
+    font-size: 14px;
+  }
+
+  .main__month_text {
+    font-size: 14px;
+  }
+
+  .main__container {
+    padding: 10px;
+    gap: 14px;
+  }
+
+  .main__orders__text > p {
+    font-size: 14px;
+    line-height: 8px; /* 150% */
+  }
+
+  .main__money > p {
+    font-size: 16px;
+  }
+
+  .main__orders {
+    padding: 14px;
+  }
+
+  .main__filters {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: normal;
+  }
+
+  /* .main__filter {
+    width: 100%;
+  } */
 }

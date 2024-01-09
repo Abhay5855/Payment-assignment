@@ -1,0 +1,182 @@
+.sidebar__image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12.5px;
+  margin-bottom: 20px;
+  padding: 8px 16px;
+}
+
+.sidebar__container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.sidebar__image > section {
+  display: flex;
+  align-items: center;
+  gap: 12.5px;
+}
+
+.sidebar__details {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__details > h3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 146.667% */
+}
+
+.sidebar__details > a {
+  color: #fff;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 123.077% */
+  text-decoration-line: underline;
+  opacity: 0.8;
+}
+
+.sidebar__arrow {
+  cursor: pointer;
+}
+
+.sidebar__links {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar__links__data {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 16px;
+}
+.sidebar__links__data__active {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar__links__data > a {
+  color: #fff;
+  /* Body 2/Medium */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.sidebar__links__data__active > a {
+  color: #fff;
+  /* Body 2/Medium */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.sidebar__footer {
+  padding: 8px 16px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  position: fixed;
+  bottom: 5%;
+}
+
+.sidebar__footer > div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.wallet__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.wallet__content > h3 {
+  color: #fff;
+  /* Sub Body/Regular */
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 123.077% */
+}
+
+.wallet__content > span {
+  color: #fff;
+  /* Sub Title/Medium */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .sidebar__links__data > a {
+    display: none;
+  }
+
+  .sidebar__links__data__active > a {
+    display: none;
+  }
+
+  .sidebar__image {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .sidebar__image {
+    gap: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+  }
+
+  .sidebar__image > section {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .sidebar__details > a {
+    font-size: 13px;
+    line-height: 10px; /* 123.077% */
+  }
+
+  .wallet__content > span {
+    font-size: 12px;
+    line-height: 10px; /* 150% */
+  }
+
+  .sidebar__footer {
+    padding: 5px 10px;
+    bottom: 2%;
+  }
+
+  .sidebar__links__data {
+    gap: 10px;
+    padding: 5px 10px;
+  }
+  .sidebar__links__data__active {
+    gap: 10px;
+    padding: 5px 10px;
+  }
+}

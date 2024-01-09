@@ -1,9 +1,14 @@
 import React from "react";
 
 import "./App.css";
+import Payment from "./pages/Payment";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <Payment />
+    </>
+  );
 }
 
 export default App;

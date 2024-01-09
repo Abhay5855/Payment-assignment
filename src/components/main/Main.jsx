@@ -19,7 +19,7 @@ const Main = () => {
           <p className="main__heading">Overview</p>
         </div>
         <div className="main__month">
-          <span className="main__month_-text">Last Month</span>
+          <span className="main__month_text">Last Month</span>
           <img src={month} alt="..." loading="lazy" />
         </div>
       </div>

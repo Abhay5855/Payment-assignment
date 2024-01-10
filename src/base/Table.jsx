@@ -11,7 +11,7 @@ const Table = () => {
             {columns.map((column, index) => (
               <th key={index}>
                 <div className="responsive_table__header">
-                  {column.name}
+                  <p>{column.name}</p>
                   {column.icon && <img src={column.icon} alt="icon" />}
                 </div>
               </th>

@@ -21,10 +21,10 @@ const Table = () => {
         <tbody>
           {rows.map((row, index) => (
             <tr key={index}>
-              <td>{row.id}</td>
-              <td>{row.date}</td>
-              <td>{row.amount}</td>
-              <td>{row.fee}</td>
+              <td className="table__id">{row.id}</td>
+              <td className="table__date">{row.date}</td>
+              <td className="table__date">{row.amount}</td>
+              <td className="table__date">{row.fee}</td>
             </tr>
           ))}
         </tbody>

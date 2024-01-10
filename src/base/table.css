@@ -8,12 +8,11 @@
 }
 
 .responsive-table td {
-  border: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
   padding: 14px 12px;
 }
 
 .responsive-table th {
-  border: 1px solid #ddd;
   padding: 10px 12px;
   border-radius: 4px;
   background: #f2f2f2;

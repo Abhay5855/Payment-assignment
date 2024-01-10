@@ -16,7 +16,7 @@
 }
 
 .app__main__notes {
-  background-color: #fff;
+  background-color: #fafafa;
   grid-column: 2/3;
   grid-row: 2/3;
 }
@@ -28,7 +28,7 @@
   top: 0;
   left: 0;
   bottom: 0;
-  background-color: #353c53;
+  background-color: #1e2640;
   color: #fff;
   width: 224px;
   display: flex;

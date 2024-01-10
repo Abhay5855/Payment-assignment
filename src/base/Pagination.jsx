@@ -6,10 +6,10 @@ import next from "../assets/images/next.svg";
 const Pagination = () => {
   return (
     <div className="pagination">
-      <div className="pagination-button">
+      <button className="pagination-button">
         <img src={prev} />
-        Previous
-      </div>
+        <p>Previous</p>
+      </button>
       <div className={`page-number ${false ? "active" : "normal"}`}>1</div>
       <div className={`page-number ${false ? "active" : "normal"}`}>...</div>
       <div className={`page-number ${true ? "active" : "normal"}`}>10</div>
@@ -21,10 +21,10 @@ const Pagination = () => {
       <div className={`page-number ${false ? "active" : "normal"}`}>16</div>
       <div className={`page-number ${false ? "active" : "normal"}`}>17</div>
       <div className={`page-number ${false ? "active" : "normal"}`}>18</div>
-      <div className="pagination-button">
-        Next
+      <button className="pagination-button">
+        <p>Next</p>
         <img src={next} />
-      </div>
+      </button>
     </div>
   );
 };

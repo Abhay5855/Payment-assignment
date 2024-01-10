@@ -40,11 +40,12 @@ const Main = () => {
         </div>
       </div>
 
+      <div className="main__transactions">
+        <p>Transactions | This Month</p>
+      </div>
+
       {/* Tables */}
       <main className="main__table__section">
-        <div className="main__transactions">
-          <p>Transactions | This Month</p>
-        </div>
         <div className="main__filters">
           <div>
             <Search

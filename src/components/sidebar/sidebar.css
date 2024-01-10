@@ -18,6 +18,9 @@
   gap: 12.5px;
 }
 
+.sidebar__image > section > img {
+  border-radius: 4px;
+}
 .sidebar__details {
   display: flex;
   flex-direction: column;
@@ -95,7 +98,7 @@
   border-radius: 4px;
   background: rgba(255, 255, 255, 0.1);
   position: fixed;
-  bottom: 5%;
+  bottom: 2%;
 }
 
 .sidebar__footer > div {
